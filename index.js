@@ -8,4 +8,6 @@ function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign({}, object, { [key]: value })
 }
 
-//returns an object with the orignal key value pairs and the new key value pair:
+function deleteFromObjectByKey(object, key) {
+  return Object.assign({}, delete object.key)
+}
